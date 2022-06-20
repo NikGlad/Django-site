@@ -1,11 +1,11 @@
 {% extends 'main/base.html' %}
 
 {% block title %}
-Создать task
+Создать задачу
 {% endblock %}
 
 {% block content %}
-<h1>Создать task</h1>
+<h1>Создать задачу</h1>
 <form method="post">
     {% csrf_token %}
     {{ form.title }}<br>
